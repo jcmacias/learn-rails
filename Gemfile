@@ -7,6 +7,8 @@ gem 'rails', '4.2.6'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem "compass-rails", github: "Compass/compass-rails", branch: "master"
+gem 'sprockets', '2.11.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -34,7 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # learn-rails
 gem 'activerecord-tableless'
-gem 'compass-rails', '~> 2.0.alpha.0'
+#gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
