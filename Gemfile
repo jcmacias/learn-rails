@@ -38,7 +38,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'activerecord-tableless'
 #gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'figaro'
-gem 'gibbon'
+gem 'gibbon',  '~>1.2.0'
 gem 'google_drive', '0.3.6'
 gem 'high_voltage'
 gem 'simple_form'
